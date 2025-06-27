@@ -20,6 +20,8 @@ public class Book {
 
 
 
+    public Book() {}
+
     public Book(Integer id, String title, String author, Integer quantity, Boolean isAvailable, Integer categoryId) {
         this.id = id;
         this.title = title;
@@ -28,6 +30,9 @@ public class Book {
         this.isAvailable = isAvailable;
         this.categoryId = categoryId;
     }
+
+
+
 
     public Integer getId()
     {

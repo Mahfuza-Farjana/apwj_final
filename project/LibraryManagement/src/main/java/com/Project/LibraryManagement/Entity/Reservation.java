@@ -17,6 +17,8 @@ public class Reservation {
 
     private String status;
 
+    public Reservation(){}
+
     public Reservation(Integer id, Integer userId, Integer bookId, LocalDateTime reservedAt, String status) {
         this.id = id;
         this.userId = userId;

@@ -15,7 +15,7 @@ public class Wishlist {
 
     private LocalDateTime createdAt;
 
-
+public Wishlist(){}
 
     public Wishlist(Integer id, Integer userId, Integer bookId, LocalDateTime createdAt) {
         this.id = id;

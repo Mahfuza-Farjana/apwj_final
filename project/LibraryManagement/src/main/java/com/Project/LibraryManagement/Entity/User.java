@@ -19,6 +19,8 @@ public class User {
     @NotNull
     private String role;
 
+    public User(){}
+
     public User(String email, Integer id, String username, String password, String role) {
         this.email = email;
         this.id = id;

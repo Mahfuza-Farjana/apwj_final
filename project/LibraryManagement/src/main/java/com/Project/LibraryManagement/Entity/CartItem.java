@@ -15,6 +15,7 @@ public class CartItem {
 
     private LocalDateTime addedAt;
 
+    public CartItem(){}
 
 
     public CartItem(Integer id, Integer userId, Integer bookId, LocalDateTime addedAt) {

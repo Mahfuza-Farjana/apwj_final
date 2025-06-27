@@ -20,6 +20,8 @@ public class PasswordResetToken {
     private LocalDateTime expiresAt;
 
 
+    public PasswordResetToken(){}
+
     public PasswordResetToken(Integer id, Integer userId, String resetToken, LocalDateTime createdAt, LocalDateTime expiresAt) {
         this.id = id;
         this.userId = userId;
