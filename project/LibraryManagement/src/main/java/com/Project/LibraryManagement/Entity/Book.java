@@ -19,10 +19,7 @@ public class Book {
     private Integer categoryId;
 
 
-
-    public Book() {}
-
-    public Book(Integer id, String title, String author, Integer quantity, Boolean isAvailable, Integer categoryId) {
+    public Book() {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -30,7 +27,6 @@ public class Book {
         this.isAvailable = isAvailable;
         this.categoryId = categoryId;
     }
-
 
 
 

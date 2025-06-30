@@ -24,8 +24,6 @@ public class BorrowRecord {
     private String status;
 
 
-    public BorrowRecord(){}
-
 
     public BorrowRecord(Integer id, Integer userId, Integer bookId, LocalDate borrowDate, LocalDate dueDate, LocalDate returnDate, String status) {
         this.id = id;

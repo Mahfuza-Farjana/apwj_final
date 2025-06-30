@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public class WishlistRepository {
+
     private final JdbcTemplate jdbcTemplate;
 
     public WishlistRepository(DataSource dataSource) {
