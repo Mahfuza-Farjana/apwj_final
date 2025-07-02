@@ -2,6 +2,11 @@ package com.Project.LibraryManagement.Entity;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
+import org.springframework.security.core.GrantedAuthority;
+
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import java.util.Collection;
 
 public class User {
     private Integer id;
@@ -17,7 +22,15 @@ public class User {
     private String email;
 
     @NotNull
+    @Enumerated(EnumType.STRING)
     private Role role;
+
+    public User() {}
+
+    public User(String username, String password, boolean b, boolean b1, boolean b2, boolean b3, Collection<? extends GrantedAuthority> authorities)
+    {
+
+    }
 
     public User(String email, Integer id, String username, String password, Role role) {
         this.email = email;
