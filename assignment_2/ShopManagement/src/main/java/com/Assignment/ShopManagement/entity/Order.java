@@ -9,6 +9,10 @@ public class Order {
     private Double totalPrice;
 
     public Order() {
+
+    }
+
+    public Order(Integer id, Integer userId, LocalDate orderDate, Double totalPrice) {
         this.id = id;
         this.userId = userId;
         this.orderDate = orderDate;

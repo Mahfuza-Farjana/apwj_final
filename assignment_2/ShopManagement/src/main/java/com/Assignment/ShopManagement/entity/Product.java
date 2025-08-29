@@ -17,6 +17,9 @@ public class Product {
     @NotNull
     private Category category;
 
+    public Product() {
+    }
+
     public Product(Integer id, String name, Double price, LocalDate expiryDate, Integer quantity, Category category) {
         this.id = id;
         this.name = name;

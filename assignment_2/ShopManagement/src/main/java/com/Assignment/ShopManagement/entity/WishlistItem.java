@@ -4,6 +4,9 @@ public class WishlistItem {
     private Integer userId;
     private Integer productId;
 
+    public WishlistItem() {
+    }
+
     public WishlistItem(Integer userId, Integer productId) {
         this.userId = userId;
         this.productId = productId;
