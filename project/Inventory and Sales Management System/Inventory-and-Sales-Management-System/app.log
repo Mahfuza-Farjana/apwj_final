@@ -1,0 +1,22 @@
+User: admin | Method: CustomerApi.createCustomer(..) | Accessed At: 2025-07-02T13:09:34.980206100
+User: admin | Method: CustomerService.createUser(..) | Accessed At: 2025-07-02T13:09:34.991210500
+User: admin | Method: CustomerRepository.save(..) | Accessed At: 2025-07-02T13:09:34.993209800
+User: admin | Method: CustomerRepository.save(..) | Execution Time: 36 ms
+User: admin | Method: CustomerService.createUser(..) | Execution Time: 39 ms
+User: admin | Method: CustomerApi.createCustomer(..) | Execution Time: 59 ms
+User: admin | Method: SaleItemApi.getItemsBySaleId(..) | Accessed At: 2025-07-02T13:14:43.886633800
+User: admin | Method: SaleItemService.getItemsBySaleId(..) | Accessed At: 2025-07-02T13:14:43.889641400
+User: admin | Method: SaleItemRepository.getBySaleId(..) | Accessed At: 2025-07-02T13:14:43.891027300
+User: admin | Method: SaleItemRepository.getBySaleId(..) | Execution Time: 24 ms
+User: admin | Method: SaleItemService.getItemsBySaleId(..) | Execution Time: 27 ms
+User: admin | Method: SaleItemApi.getItemsBySaleId(..) | Execution Time: 31 ms
+User: admin | Method: SaleItemApi.addSaleItem(..) | Accessed At: 2025-07-02T13:15:22.383788800
+User: admin | Method: SaleItemService.addSaleItem(..) | Accessed At: 2025-07-02T13:15:22.386104400
+User: admin | Method: ProductRepository.getById(..) | Accessed At: 2025-07-02T13:15:22.387109400
+User: admin | Method: ProductRepository.getById(..) | Execution Time: 22 ms
+User: admin | Method: ProductRepository.update(..) | Accessed At: 2025-07-02T13:15:22.410421300
+User: admin | Method: ProductRepository.update(..) | Execution Time: 8 ms
+User: admin | Method: SaleItemRepository.save(..) | Accessed At: 2025-07-02T13:15:22.419990600
+User: admin | Method: SaleItemRepository.save(..) | Execution Time: 3 ms
+User: admin | Method: SaleItemService.addSaleItem(..) | Execution Time: 37 ms
+User: admin | Method: SaleItemApi.addSaleItem(..) | Execution Time: 43 ms
